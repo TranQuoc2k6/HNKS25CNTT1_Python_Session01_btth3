@@ -1,0 +1,11 @@
+student_name = input("Nhập họ và tên sinh viên: ")
+student_age = int(input("Nhập tuổi của sinh viên: "))
+class_name = input("Nhập lớp học của sinh viên: ")
+
+print()
+print()
+print("Thông tin sinh viên:")
+print(f"Tên sinh viên: {student_name}")
+print(f"Tuổi: {student_age}")
+print(f"Lớp học: {class_name}", end="\n\n\n")
+print(f"Chào mừng {student_name} đến với môn học Python!")
